@@ -1,2 +1,3 @@
-# meu-imovel-net
-Testes Automatizados - Serenity com Cucumber-jvm
+# Testes Automação Serenity - Site Lojas Americanas
+
+- Executar testes: mvn clean verify
