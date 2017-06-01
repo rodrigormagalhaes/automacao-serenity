@@ -2,21 +2,21 @@
 
 
 #### Configuração ambiente Windows
-... Java
-... Maven
-...
+### Java
+###  Maven
+### 
 
 
 #### Configuração ambiente Linux
-... Java
-... Maven
-...
+###  Java
+###  Maven
+### 
 
 
 #### Edição do Projeto
-... Eclipse
-... Plugins
-...
+### Eclipse
+### Plugins
+### 
 
 
 #### Executar testes:
