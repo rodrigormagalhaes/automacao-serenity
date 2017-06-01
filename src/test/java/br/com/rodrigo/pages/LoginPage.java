@@ -14,7 +14,7 @@ import net.thucydides.core.pages.PageObject;
 public class LoginPage extends PageObject {
 
 	/*
-	 * WebElements da pagina
+	 * WebElements da página
 	 */
 	@FindBy(css="input[name='email']")
 	private WebElementFacade inputEmail;
@@ -31,9 +31,7 @@ public class LoginPage extends PageObject {
 	private static final String MENSAGEM_DADOS_INCORRETOS = "E-mail ou senha incorretos";
 	
 	/**
-	 * Preenche email e password para logar no sistema
-	 * @param email
-	 * @param password
+	 * Preenche dados de login
 	 */
 	public void login(String email, String password) {
 		inputEmail.waitUntilVisible().type(email);
@@ -43,7 +41,7 @@ public class LoginPage extends PageObject {
 	
 	
 	/**
-	 * Valida se sistema mostrou msg de erro que email/senha estao com erro
+	 * Valida mensagem de erro esperada
 	 */
 	public void assertLoginIncorreto() {
 		elementError.waitForCondition().until(

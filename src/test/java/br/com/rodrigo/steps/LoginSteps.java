@@ -24,7 +24,7 @@ public class LoginSteps {
 
 	@Dado("^Eu vou para a página de login$")
 	public void eu_vou_para_a_página_de_login() {
-		homePage.goToRegistrationPage();
+		homePage.vaiParaPaginaLogin();
 
 	}
 

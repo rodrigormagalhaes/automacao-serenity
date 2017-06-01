@@ -10,24 +10,25 @@ import net.thucydides.core.annotations.DefaultUrl;
  * @author rodrigo
  * @since 24-02-2017
  */
-@DefaultUrl("http://www.americanas.com.br/")
+@DefaultUrl("http://www.americanas.com.br")
 public class HomePage extends PageObject {
 	
 	/*
-	 * WebElements da pagina
+	 * WebElements da página
 	 */
+	
+	// modal entrar/cadastrar
 	@FindBy(className="usr-link")
-	private static WebElementFacade triggerLogin; // area que aparece acoes de logar/registrar ao passar mouse
+	private static WebElementFacade modalLogin; 
 	
+	//botão Entrar
 	@FindBy(className="usr-signin")
-	private static WebElementFacade buttonLogin; // botao entrar
+	private static WebElementFacade buttonLogin;
 	
-	@FindBy(css=".item-list .product-grid-item .card-product")
-	private static WebElementFacade elementProdutoAleatorio;
 	
-	public void goToRegistrationPage() {
+	public void vaiParaPaginaLogin() {
 		
-		triggerLogin.waitUntilVisible().click();
+		modalLogin.waitUntilVisible().click();
 		buttonLogin.waitUntilVisible().click();
 	}
 

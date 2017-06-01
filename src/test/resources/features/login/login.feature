@@ -12,3 +12,4 @@ Funcionalidade: Login
       | email               |  senha |
       | teste@testx.de      | 123456 | 
       | teste@testx.org.de  | 123456 |
+      |  										|        |
