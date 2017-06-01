@@ -1,22 +1,22 @@
-## Testes Automação Serenity - Site Lojas Americanas
+### Testes Automação Serenity - Site Lojas Americanas
 
 
 #### Configuração ambiente Windows
-### Java
-###  Maven
-### 
+##### Java
+#####  Maven
+#### 
 
 
 #### Configuração ambiente Linux
-###  Java
-###  Maven
-### 
+#####  Java
+#####  Maven
+##### 
 
 
 #### Edição do Projeto
-### Eclipse
-### Plugins
-### 
+##### Eclipse
+##### Plugins
+##### 
 
 
 #### Executar testes:
@@ -27,5 +27,5 @@ $ mvn clean verify
 ```
 
 
-#### Relatório de testes: 
+##### Relatório de testes: 
 * Abrir arquivo: raiz_do_projeto/target/site/serenity/index.html
