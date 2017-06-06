@@ -26,10 +26,10 @@ public class HomePage extends PageObject {
 	private static WebElementFacade buttonLogin;
 	
 	
-	public void vaiParaPaginaLogin() {
-		
+	public void vaiParaPaginaLogin() {		
 		modalLogin.waitUntilVisible().click();
 		buttonLogin.waitUntilVisible().click();
+		
 	}
 
 }

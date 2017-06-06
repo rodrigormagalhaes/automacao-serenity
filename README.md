@@ -3,13 +3,13 @@
 
 #### Configuração ambiente Windows
 ##### Java
-#####  Maven
+##### Maven
 #### 
 
 
 #### Configuração ambiente Linux
-#####  Java
-#####  Maven
+##### Java
+##### Maven
 ##### 
 
 
@@ -17,6 +17,12 @@
 ##### Eclipse
 ##### Plugins
 ##### 
+
+
+#### Estrutura do Projeto:
+##### pages
+##### steps
+##### features
 
 
 #### Executar testes:

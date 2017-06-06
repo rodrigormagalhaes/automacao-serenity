@@ -2,6 +2,7 @@ package br.com.rodrigo.steps;
 
 import br.com.rodrigo.pages.HomePage;
 import br.com.rodrigo.pages.LoginPage;
+import br.com.rodrigo.pages.MinhaContaPage;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
@@ -15,8 +16,9 @@ public class LoginSteps {
 	
 	HomePage homePage;
 	LoginPage loginPage;
+	MinhaContaPage minhaContaPage;
 	
-	@Dado("^que eu estou na home page$")
+	@Dado("^que eu estou na home page das lojas americanas$")
 	public void que_eu_estou_na_home_page() {
 		homePage.open();
 
@@ -39,6 +41,13 @@ public class LoginSteps {
 		loginPage.assertLoginIncorreto();
 		
 	}
+	
+	@Então("^'(.*)' logou no sistema com sucesso$")
+	public void logou_no_sistema_com_sucesso(String nome) {
+		minhaContaPage.validarNome(nome);
+
+	}
+
 
 
 }
