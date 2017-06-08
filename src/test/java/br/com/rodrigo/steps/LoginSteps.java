@@ -47,6 +47,13 @@ public class LoginSteps {
 		minhaContaPage.validarNome(nome);
 
 	}
+	
+	@Quando("^Eu vou para página minha conta$")
+	public void vaiParaMinhaConta() {
+		homePage.vaiParaMinhaConta();
+
+	}
+
 
 
 

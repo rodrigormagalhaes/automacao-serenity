@@ -31,5 +31,9 @@ public class HomePage extends PageObject {
 		buttonLogin.waitUntilVisible().click();
 		
 	}
+	
+	public void vaiParaMinhaConta() {
+		
+	}
 
 }

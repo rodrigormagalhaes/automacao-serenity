@@ -19,4 +19,5 @@ Funcionalidade: Login
   	Dado que eu estou na home page das lojas americanas
   	E Eu vou para a página de login
   	Quando Eu tento logar usando 'testex@testex.de' e '123456'
+  	E Eu vou para página minha conta 
   	Então 'Rodrigo' logou no sistema com sucesso
